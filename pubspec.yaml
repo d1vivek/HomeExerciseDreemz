@@ -1,0 +1,28 @@
+name: dreemz
+description: "My Homework"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^5.0.0-release-candidate-9.3.2
+  get_storage: ^2.1.1
+  google_fonts: ^6.3.0
+  encrypt: ^5.0.3
+  http: ^1.4.0
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  mocktail: ^1.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
